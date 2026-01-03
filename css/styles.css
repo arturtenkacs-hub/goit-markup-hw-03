@@ -22,9 +22,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 .container {
-    max-width: 1440;
-    padding-left: 156px;
-    padding-right: 156px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -41,6 +41,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .header {
     padding-top: 28px;
     padding-bottom: 28px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header .container {
@@ -66,7 +67,6 @@ p, h1, h2, h3, h4, h5, h6 {
         display: flex;
         align-items: center;
         margin-right: 76px;
-
 }
 
 .header-accent {
@@ -109,7 +109,6 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     gap: 40px;
- 
 }
 
 .header-adress-list-item {
@@ -146,7 +145,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-wraper {
-    padding: 188px 472px 292px 472px;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 
@@ -184,20 +184,31 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 
+/* ------------------------------------------------------------------- */
 
 
-
-.section-subtitle {
-
+.section-subtitle-featchers {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.section-title {
 
+.section-list-featchers {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
-.section-list {
-
+.section-list-item {
+    width: calc((100% - 88px)/4);
+    border-radius: 0 0 4px 4px;
 }
+
+
+
+
+
 
 .section-title-text {
     font-family: "Roboto", sans-serif;
@@ -206,6 +217,7 @@ p, h1, h2, h3, h4, h5, h6 {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .section-text {
@@ -222,6 +234,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .section-ourteam {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-subtitle {
@@ -232,11 +246,22 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        display: block;
+        margin-bottom: 72px;
 }
-
 .ourteam-list {
     list-style-type: none;
+    display: flex;
+    align-items: center;;
+    gap: 24px;
 }
+
+
+.ourteam-div {
+    padding: 32px 16px 32px 16px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 
 .ourteam-list-item {
     background-color: #fff;
@@ -255,6 +280,7 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .ourtime-list-text {
@@ -268,16 +294,33 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+/* ----------------------------------------------------------------- */
 
 
 .section-ourportfolio {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .ourportfolio-list {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
+
+
+
+.ourportfolio-div{
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        width: 360px;
+        padding: 32px 16px;
+        /* margin-bottom: 48px; */
+}
+
+
 
 .ourportfolio-subtitle {
     font-family: "Roboto", sans-serif;
@@ -287,6 +330,7 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
 
 .ourportfolio-list-item {
@@ -316,10 +360,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+/* ------------------------------------------------------------ */
 
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-link {
@@ -331,7 +376,15 @@ p, h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         color: #f4f4fd;
         text-decoration: none;
+        display: block;
+        margin-bottom: 16px;
 }
+
+
+.footer-div {
+    max-width: 264px;
+}
+
 
 .footer-accent {
     font-family: "Raleway", sans-serif;
