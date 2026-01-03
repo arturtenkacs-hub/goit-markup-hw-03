@@ -1,12 +1,58 @@
+/* -------------------------GLOBAL STYLES----------------------------- */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ ul {
+    margin: 0;
+    padding-left: 0;
+ }
+
+ img {
+    display: block;
+ }
+
+
+
 .body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
 
-.header {}
 
-.header-nav {}
+.container {
+    max-width: 1440;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* -----------------------header----------------------------------- */
+
+
+
+
+
+.header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-nav-a {
     font-family: "Raleway", sans-serif;
@@ -17,6 +63,10 @@
         text-transform: uppercase;
         color: #2e2f42;
         text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-right: 76px;
+
 }
 
 .header-accent {
@@ -31,6 +81,9 @@
 
 .header-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-list-item {
@@ -53,6 +106,10 @@
 
 .header-adress-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ 
 }
 
 .header-adress-list-item {
@@ -73,7 +130,7 @@
 }
 
 
-
+/* --------------------------HERO------------------------------------- */
 
 .main {
 
@@ -83,6 +140,16 @@
     background: #2e2f42;
 }
 
+
+.hero-subtitle .container {
+
+}
+
+.hero-wraper {
+    padding: 188px 472px 292px 472px;
+}
+
+
 .hero-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -91,6 +158,9 @@
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+        padding-bottom: 48px;
 }
 
 .hero-button {
@@ -102,6 +172,8 @@
         color: #fff;
         background: #4d5ae5;
         cursor: pointer;
+        display: block;
+        margin: 0 auto;
 }  
 
 .hero-button:hover,
@@ -124,7 +196,7 @@
 }
 
 .section-list {
-    list-style-type: none;
+
 }
 
 .section-title-text {
@@ -146,7 +218,7 @@
 }
 
 
-
+/* --------------------------------------------------------------------- */
 
 .section-ourteam {
     background: #f4f4fd;
