@@ -51,8 +51,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    /* padding-top: 28px;
+    padding-bottom: 28px; */
 }
 
 .header-nav-a {
@@ -94,6 +94,9 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-decoration: none;
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .header-list-item:hover,.header-list-item:active,.header-list-item:focus {
@@ -271,19 +274,20 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;;
     gap: 24px;
-    width: calc((100% - 96px)/4);
+
 }
 
 
 .ourteam-div {
     padding: 32px 16px 32px 16px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-radius: 0 0 4px 4px;
 }
 
 
 .ourteam-list-item {
     background-color: #fff;
+    width: calc((100% - 96px)/4);
+    border-radius: 0 0 4px 4px;
 
 }
 
